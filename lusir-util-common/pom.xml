@@ -9,22 +9,15 @@
 		<relativePath>../lusir-util-parent/pom.xml</relativePath>
 	</parent>
 
-	<artifactId>lusir-util-compress</artifactId>
-	<name>lusir-util-compress</name>
+	<artifactId>lusir-util-common</artifactId>
+	<name>lusir-util-common</name>
 	<packaging>jar</packaging>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>com.lusir</groupId>
-			<artifactId>lusir-util-common</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>net.jpountz.lz4</groupId>
-			<artifactId>lz4</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>

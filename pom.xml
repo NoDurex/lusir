@@ -15,6 +15,7 @@
 
     <modules>
         <module>lusir-util-parent</module>
+        <module>lusir-util-common</module> 
 		<module>lusir-util-compress</module>
 	</modules>
 	
