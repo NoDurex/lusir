@@ -66,6 +66,7 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- lusir -->
 			<dependency>
 				<groupId>com.lusir</groupId>
 				<artifactId>lusir-util-common</artifactId>
@@ -76,6 +77,20 @@
 				<artifactId>lusir-util-compress</artifactId>
 				<version>${lusir.version}</version>
 			</dependency>
+
+			<!-- apache -->
+			<dependency>
+				<groupId>commons-codec</groupId>
+				<artifactId>commons-codec</artifactId>
+				<version>1.9</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.googlecode.libphonenumber</groupId>
+				<artifactId>libphonenumber</artifactId>
+				<version>5.3</version>
+			</dependency>
+
 			<dependency>
 				<groupId>net.jpountz.lz4</groupId>
 				<artifactId>lz4</artifactId>

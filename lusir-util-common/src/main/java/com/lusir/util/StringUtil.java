@@ -7,6 +7,11 @@ import java.security.NoSuchAlgorithmException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * 
+ * @author NoDurex Zhang
+ *
+ */
 public class StringUtil {
 	private static final Logger log = LoggerFactory.getLogger(StringUtil.class);
 

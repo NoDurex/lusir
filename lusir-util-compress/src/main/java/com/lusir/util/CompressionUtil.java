@@ -9,6 +9,13 @@ import net.jpountz.lz4.LZ4Compressor;
 import net.jpountz.lz4.LZ4Factory;
 import net.jpountz.lz4.LZ4FastDecompressor;
 
+
+/**
+ * LZ4 lib for compress
+ * 
+ * @author NoDurex Zhang
+ *
+ */
 public class CompressionUtil {
 	
 	private static Logger log = LoggerFactory.getLogger(CompressionUtil.class);
